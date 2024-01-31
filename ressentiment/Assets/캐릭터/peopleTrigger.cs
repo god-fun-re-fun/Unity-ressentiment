@@ -23,12 +23,12 @@ public class peopleTrigger : MonoBehaviour
         // 거리가 activationDistance보다 가까우면 첫 번째 애니메이션 재생
         if (distance < triggerDistance)
         {
-            peopleAnimator.SetBool("isLookingBoard", true);
+            peopleAnimator.SetBool("isLooking", true);
         }
         else
         {
             // 거리가 activationDistance 이상이면 두 번째 애니메이션 재생
-            peopleAnimator.SetBool("isLookingBoard", false);
+            peopleAnimator.SetBool("isLooking", false);
         }
     }
 }
