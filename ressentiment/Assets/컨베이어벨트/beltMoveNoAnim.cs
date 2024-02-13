@@ -2,18 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class beltMove : MonoBehaviour
+public class beltMoveNoAnim : MonoBehaviour
 {
-    float speed;
+    public float speed;
     Rigidbody rb;
-    Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        animator = GetComponent<Animator>();
-        //현재 실행중인 애니메이션의 속도를 가져옴
-        speed = animator.GetCurrentAnimatorClipInfo(0)[0].clip.length / animator.GetCurrentAnimatorStateInfo(0).length * 1.1F;
     }
 
     void FixedUpdate()
