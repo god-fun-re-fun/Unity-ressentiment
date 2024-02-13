@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 2707718613008861068}
   - component: {fileID: 5020065594177988429}
   - component: {fileID: 4760923765966936700}
-  - component: {fileID: 4777564895190425406}
+  - component: {fileID: -8884528196887419719}
   m_Layer: 0
   m_Name: belt
   m_TagString: Untagged
@@ -148,7 +148,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.7035437, y: 0.6819831, z: 1}
   m_Center: {x: 0.024560094, y: 0.33244693, z: 0}
---- !u!114 &4777564895190425406
+--- !u!114 &-8884528196887419719
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3375570065736539446}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26b297aa117bc4c4bb9970fe28c04031, type: 3}
+  m_Script: {fileID: 11500000, guid: f8c0106bdbf759f418e3ea747c298e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.8
